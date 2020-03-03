@@ -14,6 +14,12 @@
 		9B62DA61240DD047009F7EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B62DA60240DD047009F7EE8 /* Assets.xcassets */; };
 		9B62DA64240DD047009F7EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B62DA62240DD047009F7EE8 /* LaunchScreen.storyboard */; };
 		9B62DA6C240DD8FA009F7EE8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B62DA6B240DD8FA009F7EE8 /* SecondViewController.swift */; };
+		9B62DA74240DEB5F009F7EE8 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B62DA6E240DEB5F009F7EE8 /* elephant.png */; };
+		9B62DA75240DEB5F009F7EE8 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 9B62DA6F240DEB5F009F7EE8 /* Thumbs.db */; };
+		9B62DA76240DEB5F009F7EE8 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B62DA70240DEB5F009F7EE8 /* home.png */; };
+		9B62DA77240DEB5F009F7EE8 /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B62DA71240DEB5F009F7EE8 /* lion.png */; };
+		9B62DA78240DEB5F009F7EE8 /* gorilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B62DA72240DEB5F009F7EE8 /* gorilla.png */; };
+		9B62DA79240DEB5F009F7EE8 /* ice cream.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B62DA73240DEB5F009F7EE8 /* ice cream.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		9B62DA63240DD047009F7EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B62DA65240DD047009F7EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B62DA6B240DD8FA009F7EE8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9B62DA6E240DEB5F009F7EE8 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		9B62DA6F240DEB5F009F7EE8 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		9B62DA70240DEB5F009F7EE8 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		9B62DA71240DEB5F009F7EE8 /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
+		9B62DA72240DEB5F009F7EE8 /* gorilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorilla.png; sourceTree = "<group>"; };
+		9B62DA73240DEB5F009F7EE8 /* ice cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ice cream.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 		9B62DA56240DD046009F7EE8 /* AlertController */ = {
 			isa = PBXGroup;
 			children = (
+				9B62DA6D240DEAF3009F7EE8 /* Images */,
 				9B62DA57240DD046009F7EE8 /* AppDelegate.swift */,
 				9B62DA59240DD046009F7EE8 /* SceneDelegate.swift */,
 				9B62DA5B240DD046009F7EE8 /* ViewController.swift */,
@@ -68,6 +81,19 @@
 				9B62DA6B240DD8FA009F7EE8 /* SecondViewController.swift */,
 			);
 			path = AlertController;
+			sourceTree = "<group>";
+		};
+		9B62DA6D240DEAF3009F7EE8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9B62DA6E240DEB5F009F7EE8 /* elephant.png */,
+				9B62DA72240DEB5F009F7EE8 /* gorilla.png */,
+				9B62DA70240DEB5F009F7EE8 /* home.png */,
+				9B62DA73240DEB5F009F7EE8 /* ice cream.png */,
+				9B62DA71240DEB5F009F7EE8 /* lion.png */,
+				9B62DA6F240DEB5F009F7EE8 /* Thumbs.db */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +154,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B62DA78240DEB5F009F7EE8 /* gorilla.png in Resources */,
+				9B62DA74240DEB5F009F7EE8 /* elephant.png in Resources */,
+				9B62DA79240DEB5F009F7EE8 /* ice cream.png in Resources */,
+				9B62DA77240DEB5F009F7EE8 /* lion.png in Resources */,
+				9B62DA75240DEB5F009F7EE8 /* Thumbs.db in Resources */,
+				9B62DA76240DEB5F009F7EE8 /* home.png in Resources */,
 				9B62DA64240DD047009F7EE8 /* LaunchScreen.storyboard in Resources */,
 				9B62DA61240DD047009F7EE8 /* Assets.xcassets in Resources */,
 				9B62DA5F240DD046009F7EE8 /* Main.storyboard in Resources */,
